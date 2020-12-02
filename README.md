@@ -26,13 +26,14 @@ import (
 )
 
 func main() {
-    hash, err := Encriptar("EstaEsUnaClave)
+    hash, err := bcrypt.Encriptar("EstaEsUnaClave")
     if err != nil {
         // tratar el error
     }
 
     fmt.Println("El hash generado es:", hash)
 }
+```
 
 ## Validar contraseña recibida:
 Para validar la contraseña recibida (tipo texto) contra el hash almacenado, utilizar la siguiente función:
