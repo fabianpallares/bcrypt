@@ -2,10 +2,11 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/fabianpallares/bcrypt)](https://goreportcard.com/report/github.com/fabianpallares/bcrypt) [![GoDoc](https://godoc.org/github.com/fabianpallares/bcrypt?status.svg)](https://godoc.org/github.com/fabianpallares/bcrypt)
 
-Siempre que se almacen contraseñas en las bases de datos, están deberían estar encriptadas.
+Siempre que se almacen contraseñas en las bases de datos, estas deberían estar encriptadas.
 El algoritmo bcrypt es ideal para realizar esta tarea.
 
-Este paquete es un envoltorio del paquete nativo de Go/Golang: "golang.org/x/crypto/bcrypt"
+Este paquete es un envoltorio del paquete nativo de Go/Golang: "golang.org/x/crypto/bcrypt".
+
 Simplemente expone dos funciones en español, con la idea de agilizar el desarrollo.
 
 ## Instalación:
