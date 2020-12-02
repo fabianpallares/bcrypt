@@ -22,7 +22,7 @@ package main
 
 import (
     "fmt"
-	"github.com/fabianpallares/bcrypt"
+    "github.com/fabianpallares/bcrypt"
 )
 
 func main() {
@@ -43,7 +43,7 @@ package main
 
 import (
     "fmt"
-	"github.com/fabianpallares/bcrypt"
+    "github.com/fabianpallares/bcrypt"
 )
 
 func main() {
